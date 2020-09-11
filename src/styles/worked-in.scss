@@ -1,0 +1,19 @@
+.worked-in-container {
+  display: flex;
+
+  .column {
+    flex: 1;
+    h2 {
+      margin-top: 0;
+    }
+
+    .items-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 35px;
+    }
+  }
+}

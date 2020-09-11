@@ -1,0 +1,13 @@
+.item-container {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #11192a;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}

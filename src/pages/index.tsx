@@ -3,8 +3,9 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import '../components/styles/index.scss'
+import "../styles/index.scss"
 import MainCard from "../components/main-card/main-card"
+import SecondaryCard from "../components/secondary-card/secondary-card"
 
 interface Props {
   data: {
@@ -20,7 +21,8 @@ const HomeIndex = ({ data }: Props) => {
   return (
     <Layout>
       <SEO title="Jonathan" />
-      <MainCard/>
+      <MainCard />
+      <SecondaryCard />
     </Layout>
   )
 }

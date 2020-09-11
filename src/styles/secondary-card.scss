@@ -1,0 +1,73 @@
+.sec-card-container {
+  background-color: #18233a;
+  width: 1370px;
+  height: 800px;
+  border-radius: 12px;
+  margin-top: 110px;
+
+  .sec-card-header {
+    h1 {
+      text-align: center;
+    }
+    .links-container {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin-top: -35px;
+
+      .link-container {
+        width: 73px;
+        height: 73px;
+        border-radius: 50px;
+        border: 8px solid #030d21;
+      }
+    }
+    .sec-card-header-title {
+    }
+  }
+  .sec-card-body {
+    margin-top: 90px;
+    display: flex;
+    gap: 60px;
+
+    .menu-container {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      width: 360px;
+      padding: 0px 15px;
+
+      .menu-button {
+        padding: 40px;
+        border-radius: 5px;
+        font-size: 25px;
+        font-weight: normal;
+
+        &.active {
+          color: #dedede;
+          font-family: "Titillium Web SemiBold";
+          background-color: #11192a;
+        }
+
+        &:hover {
+          cursor: pointer;
+          background-color: #11192a;
+        }
+      }
+    }
+
+    // .menu-container::after {
+    //   content: "";
+    //   position: absolute;
+    //   margin-left: 375px;
+    //   background: #c1c1c1;
+    //   width: 4px;
+    //   height: 487px;
+    //   border-radius: 10px;
+    // }
+    .menu-content {
+      flex: 1;
+      margin-right: 50px;
+    }
+  }
+}
