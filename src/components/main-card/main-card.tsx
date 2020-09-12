@@ -7,6 +7,10 @@ import ArrowDown from "../../assets/icons/arrow-down"
 
 interface MainCardProps {}
 
+const scrollToSecondCard = () => {
+  window.scrollTo({ top: 1080, behavior: "smooth" })
+}
+
 const MainCard = ({}: MainCardProps) => {
   return (
     <div className="card-container">
@@ -28,7 +32,12 @@ const MainCard = ({}: MainCardProps) => {
       </div>
       <div className="card-footer">
         <h2>more</h2>
-        <div className="button">
+        <div
+          onClick={() => {
+            scrollToSecondCard()
+          }}
+          className="button"
+        >
           <ArrowDown color={"white"} size={28} />
         </div>
       </div>

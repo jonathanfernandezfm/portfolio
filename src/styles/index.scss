@@ -26,6 +26,7 @@ body {
   font-family: "Titillium Web Regular";
   color: #c1c1c1;
   background-color: #030d21;
+  z-index: 0;
 }
 
 main {
@@ -54,4 +55,25 @@ h2 {
     color: #dedede;
     font-family: "Titillium Web SemiBold";
   }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #18233a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dedede;
 }

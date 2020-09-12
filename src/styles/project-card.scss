@@ -1,0 +1,36 @@
+.project-card-container {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #11192a;
+  border-radius: 5px;
+
+  .image {
+    overflow: hidden;
+    padding: 20px;
+    overflow: hidden;
+    .image-card {
+      border-radius: 5px;
+      width: 100%;
+      height: 193px;
+      object-fit: cover;
+    }
+  }
+
+  .project-name {
+    font-size: 22px;
+  }
+
+  .project-resume {
+    font-size: 14px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .tech-container {
+    padding: 40px 0 25px 0;
+    display: flex;
+    gap: 20px;
+  }
+}
