@@ -1,40 +1,40 @@
 [{
-    "url": "./images/angular.png"
+    "img": "angular"
   },
   {
-    "url": "./images/react.png"
+    "img": "react"
   },
   {
-    "url": "./images/react-native.png"
+    "img": "react-native"
   },
   {
-    "url": "./images/html.png"
+    "img": "html"
   },
   {
-    "url": "./images/css.png"
+    "img": "css"
   },
   {
-    "url": "./images/node.png"
+    "img": "node"
   },
   {
-    "url": "./images/git.png"
+    "img": "git"
   },
   {
-    "url": "./images/mongo.png"
+    "img": "mongo"
   },
   {
-    "url": "./images/database.png"
+    "img": "database"
   },
   {
-    "url": "./images/wordpress.png"
+    "img": "wordpress"
   },
   {
-    "url": "./images/google-cloud.png"
+    "img": "google-cloud"
   },
   {
-    "url": "./images/photoshop.png"
+    "img": "photoshop"
   },
   {
-    "url": "./images/adobexd.png"
+    "img": "adobexd"
   }
 ]

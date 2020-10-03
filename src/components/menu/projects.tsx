@@ -11,7 +11,7 @@ const Projects = () => {
       {projects.map((project: any) => {
         return (
           <ProjectCard
-            img={`./images/${project.img}`}
+            img={project.img}
             title={project.title}
             resume={project.desc}
             tech={project.techs}

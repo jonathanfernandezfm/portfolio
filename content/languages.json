@@ -1,19 +1,19 @@
 [{
-    "url": "./images/javascript.png"
+    "img": "javascript"
   },
   {
-    "url": "./images/typescript.png"
+    "img": "typescript"
   },
   {
-    "url": "./images/java.png"
+    "img": "java"
   },
   {
-    "url": "./images/c++.png"
+    "img": "c++"
   },
   {
-    "url": "./images/php.png"
+    "img": "php"
   },
   {
-    "url": "./images/bash.png"
+    "img": "bash"
   }
 ]

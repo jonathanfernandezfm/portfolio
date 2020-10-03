@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react"
+import React from "react"
 
 import "../../styles/item.scss"
 
@@ -8,9 +8,10 @@ interface ItemProps {
 }
 
 const Item = ({ img, color }: ItemProps) => {
+  console.log(img)
   return (
     <div className="item-container" style={color ? { backgroundColor: color } : {}}>
-      <img src={img} alt="technology-icon" />
+      <img src={require(`../../assets/images/${img}.png`)} alt="technology-icon" />
     </div>
   )
 }

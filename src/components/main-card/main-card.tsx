@@ -2,7 +2,7 @@ import React from "react"
 
 import "../../styles/main-card.scss"
 
-import Image from "../../assets/images/profile_photo.jpg"
+import Image from "../../assets/images/profile_photo.png"
 import ArrowDown from "../../assets/icons/arrow-down"
 import description from "../../../content/description.json"
 

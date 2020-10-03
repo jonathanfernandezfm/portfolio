@@ -7,7 +7,7 @@
     }, {
       "id": "java"
     }],
-    "img": "plenion.png"
+    "img": "plenion"
   },
   {
     "title": "Game Interface",
@@ -18,7 +18,7 @@
     }, {
       "id": "react"
     }],
-    "img": "despistaos.png"
+    "img": "despistaos"
   },
   {
     "title": "This Portfolio",
@@ -28,7 +28,7 @@
     }, {
       "id": "gatsby"
     }],
-    "img": "portfolio.png"
+    "img": "portfolio"
   },
   {
     "title": "Formula 1 Today (WIP)",
@@ -38,17 +38,17 @@
     }, {
       "id": "typescript"
     }],
-    "img": "f1.png"
+    "img": "f1"
   },
   {
-    "title": "Seasons King (wip)",
+    "title": "Seasons King (WIP)",
     "desc": "TV Series social media with liking, rating and sharing systems. Notifications for new episodes and data search",
     "techs": [{
       "id": "react-native"
     }, {
       "id": "node"
     }],
-    "img": "mobile.jpg"
+    "img": "mobile"
   },
   {
     "title": "More in my Github",
@@ -56,7 +56,7 @@
     "techs": [{
       "id": "git"
     }],
-    "img": "github.jpg"
+    "img": "github"
   }
 
 ]

@@ -12,16 +12,16 @@ const WorkedIn = () => {
       <div className="column">
         <h2>Technologies & tools</h2>
         <div className="items-container">
-          {techs.map((item: { url: string }) => {
-            return <Item img={item.url} />
+          {techs.map((item: { img: string }) => {
+            return <Item img={item.img} />
           })}
         </div>
       </div>
       <div className="column">
         <h2>Languages</h2>
         <div className="items-container">
-          {languages.map((item: { url: string }) => {
-            return <Item img={item.url} />
+          {languages.map((item: { img: string }) => {
+            return <Item img={item.img} />
           })}
         </div>
       </div>

@@ -19,7 +19,7 @@ const ProjectCard = ({ img, title, resume, tech, link }: ProjectCardProps) => {
   return (
     <div className="project-card-container">
       <div className="image">
-        <img className="image-card" src={img} alt="" />
+        <img className="image-card" src={require(`../../assets/images/${img}.png`)} alt="" />
       </div>
       <div className="project-name">{title}</div>
       <div className="project-resume">{resume}</div>
@@ -30,7 +30,7 @@ const ProjectCard = ({ img, title, resume, tech, link }: ProjectCardProps) => {
       )}
       <div className="tech-container">
         {tech.map(tech_item => {
-          return <Item color={"#18233a"} img={`./images/${tech_item.id}.png`} />
+          return <Item color={"#18233a"} img={tech_item.id} />
         })}
       </div>
     </div>
