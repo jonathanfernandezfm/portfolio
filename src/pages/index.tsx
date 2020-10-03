@@ -21,7 +21,7 @@ interface Props {
 const HomeIndex = ({ data }: Props) => {
   return (
     <Layout>
-      <SEO title="Jonathan" />
+      <SEO title="Jonathan Fernández Mertanen" lang={"en"} />
       <ParallaxBackground />
       <MainCard />
       <SecondaryCard />
