@@ -4,6 +4,7 @@ module.exports = {
     description: `Jonathan Fernandez Mertanen Porfolio. Information Systems Engineer and Full Stack Developer. What I do and what I'm looking for.`,
     author: `@JonathanFdezM`,
   },
+  pathPrefix: "/portfolio-jonathan",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -24,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/profile_photo.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
