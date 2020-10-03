@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Jonathan Fernandez Mertanen Portfolio`,
-    description: `Jonathan Fernandez Mertanen Porfolio`,
+    title: `Jonathan Fernandez Mertanen`,
+    description: `Jonathan Fernandez Mertanen Porfolio. Information Systems Engineer and Full Stack Developer. What I do and what I'm looking for.`,
     author: `@JonathanFdezM`,
   },
   plugins: [
