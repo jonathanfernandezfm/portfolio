@@ -4,7 +4,7 @@ module.exports = {
     description: `Jonathan Fernandez Mertanen Porfolio. Information Systems Engineer and Full Stack Developer. What I do and what I'm looking for.`,
     author: `@JonathanFdezM`,
   },
-  pathPrefix: "/portfolio-jonathan",
+  pathPrefix: "/portfolio",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
