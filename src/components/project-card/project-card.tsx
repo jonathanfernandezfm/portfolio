@@ -4,31 +4,34 @@ import "../../styles/project-card.scss"
 import Item from "../menu/item"
 
 interface Technologies {
-  [index: number]: { id: string }
+  id: string
 }
 
 interface ProjectCardProps {
+  img: string
   title: string
   resume: string
-  desc: string
-  tech: Technologies
+  tech: Technologies[]
+  link?: string
 }
 
-const ProjectCard = ({ title, resume, desc, tech }: ProjectCardProps) => {
+const ProjectCard = ({ img, title, resume, tech, link }: ProjectCardProps) => {
   return (
     <div className="project-card-container">
       <div className="image">
-        <img
-          className="image-card"
-          src="https://www.acronis.com/sites/default/files/inline_images/sharing_logo_ati_2021.jpg"
-          alt=""
-        />
+        <img className="image-card" src={img} alt="" />
       </div>
       <div className="project-name">{title}</div>
       <div className="project-resume">{resume}</div>
+      {link && (
+        <a href={link} target="_blank">
+          {link}
+        </a>
+      )}
       <div className="tech-container">
-        <Item color={"#18233a"} url={"https://rubengarcia.me/img/node.6dcf6999.png"} />
-        <Item color={"#18233a"} url={"https://rubengarcia.me/img/node.6dcf6999.png"} />
+        {tech.map(tech_item => {
+          return <Item color={"#18233a"} img={`./images/${tech_item.id}.png`} />
+        })}
       </div>
     </div>
   )

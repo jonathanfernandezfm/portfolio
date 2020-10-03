@@ -1,0 +1,62 @@
+[{
+    "title": "Plenion 247 Portal & API",
+    "desc": "Plenion cloud integration project. Google and Microsoft calendar, files, invoicing sync",
+    "link": "https://plenion.be/",
+    "techs": [{
+      "id": "angular"
+    }, {
+      "id": "java"
+    }],
+    "img": "plenion.png"
+  },
+  {
+    "title": "Game Interface",
+    "desc": "Project for Despistaos, the largest and best community of GTA V Roleplay in Spain.",
+    "link": "https://despistaos.es/foro/",
+    "techs": [{
+      "id": "node"
+    }, {
+      "id": "react"
+    }],
+    "img": "despistaos.png"
+  },
+  {
+    "title": "This Portfolio",
+    "desc": "Portfolio/Personal page about myself, what I have done in my career and what I'm looking for 😁",
+    "techs": [{
+      "id": "react"
+    }, {
+      "id": "gatsby"
+    }],
+    "img": "portfolio.png"
+  },
+  {
+    "title": "Formula 1 Today (WIP)",
+    "desc": "Formula 1 current season information application. Focused on providing updated information about next races, circuits, etc.",
+    "techs": [{
+      "id": "react"
+    }, {
+      "id": "typescript"
+    }],
+    "img": "f1.png"
+  },
+  {
+    "title": "Seasons King (wip)",
+    "desc": "TV Series social media with liking, rating and sharing systems. Notifications for new episodes and data search",
+    "techs": [{
+      "id": "react-native"
+    }, {
+      "id": "node"
+    }],
+    "img": "mobile.jpg"
+  },
+  {
+    "title": "More in my Github",
+    "desc": "Check out my github for more side projects that I have been working on for fun and for learning purpose",
+    "techs": [{
+      "id": "git"
+    }],
+    "img": "github.jpg"
+  }
+
+]

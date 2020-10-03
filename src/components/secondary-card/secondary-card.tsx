@@ -20,19 +20,29 @@ const SecondaryCard = ({}: SecondaryCardProps) => {
     <div className="sec-card-container">
       <div className="sec-card-header">
         <div className="links-container">
-          <a tabIndex={1} href="https://github.com" target="_blank" className="link-container">
+          <a tabIndex={1} href="https://github.com/jonathanfernandezfm" target="_blank" className="link-container">
             <Github size={73} />
           </a>
-          <a tabIndex={1} href="https://github.com" target="_blank" className="link-container">
+          <a
+            tabIndex={1}
+            href="https://www.instagram.com/jonathanfdez_poak/"
+            target="_blank"
+            className="link-container"
+          >
             <Instagram size={73} />
           </a>
-          <a tabIndex={1} href="https://github.com" target="_blank" className="link-container">
+          <a
+            tabIndex={1}
+            href="https://www.linkedin.com/in/jonathanfernandezfm/"
+            target="_blank"
+            className="link-container"
+          >
             <Linkedin size={73} />
           </a>
-          <a tabIndex={1} href="https://github.com" target="_blank" className="link-container">
+          <a tabIndex={1} href="https://twitter.com/JonathanFdezM" target="_blank" className="link-container">
             <Twitter size={73} />
           </a>
-          <a tabIndex={1} href="https://github.com" target="_blank" className="link-container">
+          <a tabIndex={1} href="https://dribbble.com/JonathanFM" target="_blank" className="link-container">
             <Dribble size={73} />
           </a>
         </div>

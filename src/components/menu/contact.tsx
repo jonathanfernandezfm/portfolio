@@ -6,7 +6,7 @@ import "../../styles/contact.scss"
 const ContactForm = () => {
   return (
     <div className="contact-form-container">
-      <form>
+      {/* <form>
         <label
           onClick={e => {
             e.preventDefault()
@@ -42,7 +42,10 @@ const ContactForm = () => {
             <Mail color={"white"} size={30} />
           </button>
         </div>
-      </form>
+      </form> */}
+      <div className="contact-text-ph">
+        You can contact me through any of the social media links on top of this page
+      </div>
     </div>
   )
 }
