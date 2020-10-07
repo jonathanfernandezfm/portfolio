@@ -2,7 +2,7 @@
 
 ## I'm **Jonathan Fernández Mertanen** and this is the source of my personal page/portfolio
 
-## 👀 Check it out here: [Link](https://jonathanfernandezfm.github.io/portfolio-jonathan/)
+## 👀 Check it out here: [Link](https://jonathanfernandezfm.github.io/portfolio/)
 
 If you still want to stay here:
 
