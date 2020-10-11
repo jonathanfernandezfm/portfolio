@@ -1,29 +1,11 @@
-@font-face {
-  font-family: "Titillium Web Light";
-  src: local("Titillium Web"), url(../assets/fonts/TitilliumWeb-Light.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Titillium Web Regular";
-  src: local("Titillium Web"), url(../assets/fonts/TitilliumWeb-Regular.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Titillium Web SemiBold";
-  src: local("Titillium Web"), url(../assets/fonts/TitilliumWeb-SemiBold.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "OpenSans Regular";
-  src: local("Open Sans"), url(../assets/fonts/OpenSans-Regular.ttf) format("ttf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web:wght@300;400;600&display=swap");
 
 html,
 body {
   margin: 0;
   padding: 0;
 
-  font-family: "Titillium Web Regular";
+  font-family: "Titillium Web", "Open Sans";
   color: #c1c1c1;
   background-color: #030d21;
   z-index: 0;
@@ -43,7 +25,7 @@ h1 {
 
   b {
     color: #dedede;
-    font-family: "Titillium Web SemiBold";
+    font-weight: bold;
   }
 }
 
@@ -53,7 +35,7 @@ h2 {
 
   b {
     color: #dedede;
-    font-family: "Titillium Web SemiBold";
+    font-weight: bold;
   }
 }
 
